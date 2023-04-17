@@ -120,11 +120,11 @@ export const services = [
     },
     {
         title: "Backend Developer",
-        icon: 'backend.png',
+        icon: 'web.png',
     }, 
     {
         title: "Gamer",
-        icon: 'mobile.png',
+        icon: 'web.png',
     },
 ];
 
