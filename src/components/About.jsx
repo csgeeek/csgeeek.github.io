@@ -24,6 +24,9 @@ const ServiceCard = ({ service }) => (
 );
 
 const About = () => {
+  console.log('VITE_RESUME', import.meta.env.VITE_RESUME);
+  console.log('RESUME',import.meta.env.RESUME);
+  console.log('ENV_OBJ', import.meta.env);
   return (
     <div className='bg-black p-4 h-full w-full text-white sm:flex sm:justify-around about' id='about'>
       <div className='flex flex-col justify-around'>
