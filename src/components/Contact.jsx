@@ -57,7 +57,7 @@ const Contact = () => {
 				(error) => {
 					setLoading(false);
 					console.error(error);
-					toast.error("Something went wrong. Please try again later.", {
+					toast.error("Uh, oh! Something went wrong. Please try again later.", {
 						position: toast.POSITION.BOTTOM_RIGHT,
 					});
 				}

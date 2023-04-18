@@ -9,7 +9,7 @@ export const experiences = [
         'points': [
             'Led a project initiative and revamped the existing site to a subscription based model which added a new stream of revenue for the company. 🧑‍💻',
             'Revised the global search functionality to display top content first by configuring search indexes on AWS Elasticsearch. 📈',
-            'Integrated Discourse Forum with the existing application using Docker and implemented SSO. Configured application with AWS SES to send emails. 🐳',
+            'Integrated Discourse Forum in our platform using Docker and implemented SSO. Configured application with AWS SES to send emails. 🐳',
         ]
     },
     {
@@ -18,7 +18,7 @@ export const experiences = [
         'duration': 'Dec 2022 - Jan 2023',
         'logo': 'https://www.codepeak.tech/favicon.png',
         'points': [
-            'Mentored 20+ students in Web Development and helped them to get started with FOSS. ❤️',
+            'Mentored 20+ students and helped them to get started with FOSS. ❤️',
             'Maintained open source projects on Github and mentored students to get a good grasp on technologies like Git, GitHub, MERN. 📚',
         ]
     },
@@ -41,7 +41,7 @@ export const experiences = [
         'points': [
             'Design and deliver the UI/UX for the official ACM-VIIT website. 🎨',
             'Collaborated with the team and organized Hackathons, and mentored 200+ students. 🤝',
-            'Organized a seminar for 300+ students and spoke about Web3.0 and Networking concepts. 📢',
+            'Organized seminars for 300+ students and gave insights on Web3.0, Networking and Competitive Programming. 📢',
         ]
     }
 ]
