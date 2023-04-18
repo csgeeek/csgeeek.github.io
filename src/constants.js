@@ -66,8 +66,8 @@ export const projects = [
                 'color': "text-pink-500",
             },
         ],
-        'image': 'https://opengraph.githubassets.com/ncds33asdhn12dkljipp9/Yaswanth820/Ambulance-tracker',
-        'source_code_link': "https://github.com/Yaswanth820/Ambulance-tracker",
+        'image': 'https://opengraph.githubassets.com/ncds33asdhn12dkljipp9/csgeeek/Ambulance-tracker',
+        'source_code_link': "https://github.com/csgeeek/Ambulance-tracker",
     },
     {
         'name': "Scan to Healthify",
@@ -87,8 +87,8 @@ export const projects = [
                 'color': "text-pink-500",
             },
         ],
-        'image': 'https://opengraph.githubassets.com/ncds33asdhn12dkljipp9/Yaswanth820/scan-to-healthify/',
-        'source_code_link': "https://github.com/Yaswanth820/scan-to-healthify/",
+        'image': 'https://opengraph.githubassets.com/ncds33asdhn12dkljipp9/csgeeek/scan-to-healthify/',
+        'source_code_link': "https://github.com/csgeeek/scan-to-healthify/",
     },
     {
         'name': "Student Profile System",
@@ -108,8 +108,8 @@ export const projects = [
                 'color': "text-pink-500",
             },
         ],
-        'image': 'https://opengraph.githubassets.com/ncds33asdhn12dkljipp9/Yaswanth820/student-profile-system',
-        'source_code_link': "https://github.com/Yaswanth820/student-profile-system",
+        'image': 'https://opengraph.githubassets.com/ncds33asdhn12dkljipp9/csgeeek/student-profile-system',
+        'source_code_link': "https://github.com/csgeeek/student-profile-system",
     },
 ];
 
@@ -121,7 +121,7 @@ export const services = [
     {
         title: "Backend Developer",
         icon: 'web.png',
-    }, 
+    },
     {
         title: "Gamer",
         icon: 'web.png',
