@@ -24,9 +24,6 @@ const ServiceCard = ({ service }) => (
 );
 
 const About = () => {
-  console.log('VITE_RESUME', import.meta.env.VITE_RESUME);
-  console.log('RESUME',import.meta.env.RESUME);
-  console.log('ENV_OBJ', import.meta.env);
   return (
     <div className='bg-black p-4 h-full w-full text-white sm:flex sm:justify-around about' id='about'>
       <div className='flex flex-col justify-around'>
@@ -36,7 +33,7 @@ const About = () => {
           <p className='mt-3 mb-6 text-[17px] max-w-3xl leading-[30px]'>Hello World, This is Balaji Yaswanth Vankala. I am final year CSE student (2019-2023) 🚀. I have got an emotion for computers 💘. I am a Software Engineer with good experience in building optimized backend systems and wonderful frontend web applications. I am an open-source enthusiast and a competitive programmer. Make sure to checkout my articles on <a className=' text-purple-300 hover:text-purple-400 duration-300' href="https://medium.com/@balajiyaswanth.v" target='_blank'>Medium</a> and answers on <a className=' text-green-200 hover:text-green-400 duration-300' href="https://stackoverflow.com/users/12291279/csgeek" target='_blank'>StackOverflow</a> 😉 . Apart from coding my hobbies are playing sudoku and swimming 🐳. </p>
 
           <ButtonLink
-            url={import.meta.env.VITE_RESUME}
+            url='https://drive.google.com/file/d/1mlgWFoFtQwI6cg0l-tsxUvchraDL_aNR/view?usp=sharing'
             text='Know More →'
             padding={`p-3`}
           />
