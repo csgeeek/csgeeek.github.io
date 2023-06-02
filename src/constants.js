@@ -3,12 +3,22 @@ export const name = 'csgeek.';
 export const experiences = [
     {
         'company': 'EdYoda',
+        'role': 'Software Development Engineer - II',
+        'duration': 'May 2023 - Present',
+        'logo': 'https://www.edyoda.com/favicon.ico',
+        'points': [
+            'Building EdYoda Live 🚀',
+            'Pivoting the product by taking data-driven decisions and implementing features to optimize Conversion Rates. 📈',
+        ]
+    },
+    {
+        'company': 'EdYoda',
         'role': 'Software Developer Intern',
-        'duration': 'July 2022 - Present',
+        'duration': 'July 2022 - April 2023',
         'logo': 'https://www.edyoda.com/favicon.ico',
         'points': [
             'Led a project initiative and revamped the existing site to a subscription based model which added a new stream of revenue for the company. 🧑‍💻',
-            'Revised the global search functionality to display top content first by configuring search indexes on AWS Elasticsearch. 📈',
+            'Revised search functionality to display top content first by configuring search indexes on AWS Elasticsearch. 📈',
             'Integrated Discourse Forum in our platform using Docker and implemented SSO. Configured application with AWS SES to send emails. 🐳',
         ]
     },
@@ -58,7 +68,7 @@ export const projects = [
                 'color': "text-blue-500",
             },
             {
-                'name': "nodejs",
+                'name': "node",
                 'color': "text-green-500",
             },
             {

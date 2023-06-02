@@ -33,7 +33,7 @@ const About = () => {
           <p className='mt-3 mb-6 text-[17px] max-w-3xl leading-[30px]'>Hello World, This is Balaji Yaswanth Vankala. I am a final year CSE student (2019-2023) 🚀. I have got an emotion for computers 💘. I am a Software Engineer with good experience in building optimized backend systems and wonderful frontend web applications. I am an open-source enthusiast and a competitive programmer. Make sure to checkout my articles on <a className=' text-purple-300 hover:text-purple-400 duration-300' href="https://medium.com/@balajiyaswanth.v" target='_blank'>Medium</a> and answers on <a className=' text-green-200 hover:text-green-400 duration-300' href="https://stackoverflow.com/users/12291279/csgeek" target='_blank'>StackOverflow</a> 😉 . Apart from coding my hobbies are playing sudoku and swimming 🐳. </p>
 
           <ButtonLink
-            url='https://drive.google.com/file/d/1mlgWFoFtQwI6cg0l-tsxUvchraDL_aNR/view?usp=sharing'
+            url='https://drive.google.com/drive/u/0/folders/1N_cRa01DbAr25eBvJfM-wlky_W-Cx0Yh'
             text='Know More →'
             padding={`p-3`}
           />

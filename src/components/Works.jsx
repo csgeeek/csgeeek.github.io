@@ -4,7 +4,7 @@ import Card from './Card';
 
 const Works = () => {
   return (
-    <div className="projects bg-black px-4 py-16">
+    <div className="projects bg-black px-4 py-16" id='works'>
       <div className='text-white w-full sm:px-16 px-2'>
         <p className='font-light'>MY WORK</p>
         <h2 className='text-5xl font-extrabold mt-4'>Projects.</h2>

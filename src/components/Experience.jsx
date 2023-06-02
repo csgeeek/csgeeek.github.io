@@ -6,7 +6,7 @@ import { experiences } from '../constants';
 
 const Experience = () => {
   return (
-    <div className='experience bg-black w-screen text-white px-4 py-16'>
+    <div className='experience bg-black w-screen text-white px-4 py-16' id='experience'>
       <div className='px-2 sm:px-16'>
         <p className='font-light'>MY JOURNEY SO FAR.</p>
         <h2 className='text-4xl sm:text-5xl font-extrabold mt-2'>Work Experience.</h2>
