@@ -29,16 +29,29 @@ const Contact = () => {
 		e.preventDefault();
 		setLoading(true);
 
+		// cleaning the form data
+		const username = form.name.trim();
+		const user_email = form.email.trim();
+		const user_message = form.message.trim();
+
+		if (username === '' || user_email === '' || user_message === '') {
+			setLoading(false);
+			toast.error("Please fill all the fields.", {
+				position: toast.POSITION.BOTTOM_RIGHT,
+			});
+			return;
+		}
+
 		emailjs
 			.send(
 				EMAIL_JS_SERVICE_ID,
 				EMAIL_JS_TEMPLATE_ID,
 				{
-					from_name: form.name,
+					from_name: username,
 					to_name: "Balaji Yaswanth",
-					reply_to: form.email,
+					reply_to: user_email,
 					to_email: "balajiyaswanth.v@gmail.com",
-					message: form.message,
+					message: user_message,
 				},
 				EMAIL_JS_PUBLIC_KEY
 			)
@@ -84,6 +97,7 @@ const Contact = () => {
 							placeholder="What's your good name?"
 							className='py-4 px-6 rounded-lg outline-none border-none font-medium'
 							style={{ background: '#1d1836' }}
+							required
 						/>
 					</label>
 					<label className='flex flex-col'>
@@ -96,6 +110,7 @@ const Contact = () => {
 							placeholder="Please enter your email."
 							className='py-4 px-6 rounded-lg outline-none border-none font-medium'
 							style={{ background: '#1d1836' }}
+							required
 						/>
 					</label>
 					<label className='flex flex-col'>
@@ -108,6 +123,7 @@ const Contact = () => {
 							placeholder='Do you have anything to say?'
 							className='py-4 px-6 rounded-lg outline-none border-none font-medium'
 							style={{ background: '#1d1836' }}
+							required
 						/>
 					</label>
 
