@@ -7,8 +7,9 @@ export const experiences = [
         'duration': 'May 2023 - Present',
         'logo': 'https://www.edyoda.com/favicon.ico',
         'points': [
-            'Building EdYoda Live 🚀',
-            'Pivoting the product by taking data-driven decisions and implementing features to optimize Conversion Rates. 📈',
+            'Debugged critical issue related to celery configuration on production which caused email delivery failure 🐛.',
+            'Pivoted the product with data-driven analysis and migrated back to Orders API which optimized Conversion Rates by 3% 📈.',
+            'Built a CI / CD pipeline from scratch with Circle CI which reduced the manual efforts and ensured smoother releases ⚙️.',
         ]
     },
     {
