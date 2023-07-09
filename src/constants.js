@@ -9,7 +9,7 @@ export const experiences = [
         'points': [
             'Debugged critical issue related to celery configuration on production which caused email delivery failure 🐛.',
             'Pivoted the product with data-driven analysis and migrated back to Orders API which optimized Conversion Rates by 3% 📈.',
-            'Built a CI / CD pipeline from scratch with Circle CI which reduced the manual efforts and ensured smoother releases ⚙️.',
+            'Built a CI / CD pipeline from scratch with Jenkins which reduced the manual efforts and ensured smoother releases ⚙️.',
         ]
     },
     {
@@ -38,7 +38,6 @@ export const experiences = [
         'role': 'Community Lead',
         'duration': 'May 2022 - Jan 2023',
         'logo': 'https://assets.hackclub.com/icon-rounded.svg',
-        // 'logo': 'https://assets.hackclub.com/icon-square.svg',
         'points': [
             'Collaborated with 15+ Hackclub leads across the Asia-Pacific region and introduced suitable ideas to our community. 🌏',
             'Hosted a Workshop on Back-end development in college with 100+ attendees. 📚',
