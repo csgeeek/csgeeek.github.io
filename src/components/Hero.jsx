@@ -19,7 +19,7 @@ const Hero = () => {
 	}, [text]);
 
 	return (
-		<div className='hero realtive h-[calc(100vh+4rem)] flex justify-center items-center text-white' id='hero'>
+		<div className='hero relative h-[calc(100vh+4rem)] flex justify-center items-center text-white' id='hero'>
 			<div className='px-4 h-36 backdrop-blur-sm rounded-3xl'>
 				<h1 className='text-6xl sm:text-7xl font-extrabold mt-2'>Hi, I'm&nbsp;<span className='text-purple-600 font-extrabold'>{text}</span></h1>
 				<p className='mt-3 text-xl'>I love to learn and build scalable and optimized backend systems.</p>
