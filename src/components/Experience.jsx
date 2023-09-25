@@ -1,7 +1,7 @@
 import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { experiences } from '../constants';
+import { experiences, companyColors } from '../constants';
 
 
 const Experience = () => {
@@ -20,13 +20,13 @@ const Experience = () => {
             date={experience.duration}
             iconStyle={{ background: '#fff' }}
             icon={
-              <div className='flex justify-center items-center w-full h-full'>
+              <a className='flex justify-center items-center w-full h-full' href={experience.url} target='_blank'>
                 <img
                   src={experience.logo}
                   alt={experience.company}
                   className='w-[60%] h-[60%] object-contain'
                 />
-              </div>
+              </a>
             }
           >
             <div>

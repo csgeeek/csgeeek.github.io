@@ -24,7 +24,7 @@ const Hero = () => {
 				<h1 className='text-6xl sm:text-7xl font-extrabold mt-2'>Hi, I'm&nbsp;<span className='text-purple-600 font-extrabold'>{text}</span></h1>
 				<p className='mt-3 text-xl'>I love to learn and build scalable and optimized backend systems.</p>
 			</div>
-			<div className='absolute xs:bottom-10 bottom-5 w-full flex justify-center items-center'>
+			<div className='hidden absolute xs:bottom-10 bottom-5 w-full sm:flex justify-center items-center'>
 				<div className='w-[28px] h-[40px] rounded-3xl border-2 border-secondary flex justify-center items-start p-2'>
 					<motion.div
 						animate={{

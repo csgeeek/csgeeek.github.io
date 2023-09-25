@@ -11,7 +11,8 @@ export const experiences = [
             'Debugged critical issue related to celery configuration on production which caused email delivery failure 🐛.',
             'Pivoted the product with data-driven analysis and migrated back to Orders API which optimized Conversion Rates by 3% 📈.',
             'Built a CI / CD pipeline from scratch with Jenkins and automated deployment process ⚙️.',
-        ]
+        ],
+        'url': 'https://www.edyoda.com/',
     },
     {
         'company': 'EdYoda',
@@ -22,7 +23,8 @@ export const experiences = [
             'Led a project initiative and revamped the existing site to a subscription based model which added a new stream of revenue for the company. 🧑‍💻',
             'Revised search functionality to display top content first by configuring search indexes on AWS Elasticsearch. 📈',
             'Integrated Discourse Forum in our platform using Docker and implemented SSO. Configured application with AWS SES to send emails. 🐳',
-        ]
+        ],
+        'url': 'https://www.edyoda.com/',
     },
     {
         'company': 'Coding Club, IIT Guwahati',
@@ -32,7 +34,8 @@ export const experiences = [
         'points': [
             'Mentored 20+ students and helped them to get started with FOSS. ❤️',
             'Maintained open source projects on Github and mentored students to get a good grasp on technologies like Git, GitHub, MERN. 📚',
-        ]
+        ],
+        'url': 'https://www.codepeak.tech/',
     },
     {
         'company': 'Hack Club VIIT',
@@ -42,7 +45,8 @@ export const experiences = [
         'points': [
             'Collaborated with 15+ Hackclub leads across the Asia-Pacific region and introduced suitable ideas to our community. 🌏',
             'Hosted a Workshop on Back-end development in college with 100+ attendees. 📚',
-        ]
+        ],
+        'url': 'https://hackclub.com/',
     },
     {
         'company': 'Vignan\'s IIT ACM Student Chapter',
@@ -53,7 +57,8 @@ export const experiences = [
             'Design and deliver the UI/UX for the official ACM-VIIT website. 🎨',
             'Collaborated with the team and organized Hackathons, and mentored 200+ students. 🤝',
             'Organized seminars for 300+ students and gave insights on Web3.0, Networking and Competitive Programming. 📢',
-        ]
+        ],
+        'url': 'https://vignanvizag.acm.org/',
     }
 ]
 
@@ -138,6 +143,13 @@ export const services = [
         icon: 'web.png',
     },
 ];
+
+export const companyColors = {
+    'EdYoda': 'text-blue-500',
+    'Coding Club, IIT Guwahati': 'text-purple-500',
+    'Hack Club VIIT': 'text-red-500',
+    'Vignan\'s IIT ACM Student Chapter': 'text-blue-500',
+};
 
 export const EMAIL_JS_SERVICE_ID = 'service_wytsw9t';
 export const EMAIL_JS_TEMPLATE_ID = 'template_wviporf';
