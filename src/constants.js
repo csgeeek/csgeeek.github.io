@@ -7,10 +7,10 @@ export const experiences = [
         'duration': 'May 2023 - Present',
         'logo': 'https://www.edyoda.com/favicon.ico',
         'points': [
-            'Building EdYoda App 📱.',
+            'Building EdYoda App from ground-up 📱.',
             'Debugged critical issue related to celery configuration on production which caused email delivery failure 🐛.',
             'Pivoted the product with data-driven analysis and migrated back to Orders API which optimized Conversion Rates by 3% 📈.',
-            'Built a CI / CD pipeline from scratch with Jenkins and automated deployment process ⚙️.',
+            'Building a CI / CD pipeline from scratch with Jenkins to automate deployment process ⚙️.',
         ],
         'url': 'https://www.edyoda.com/',
     },
@@ -40,7 +40,7 @@ export const experiences = [
     {
         'company': 'Hack Club VIIT',
         'role': 'Community Lead',
-        'duration': 'May 2022 - Jan 2023',
+        'duration': 'Jun 2022 - Jan 2023',
         'logo': 'https://assets.hackclub.com/icon-rounded.svg',
         'points': [
             'Collaborated with 15+ Hackclub leads across the Asia-Pacific region and introduced suitable ideas to our community. 🌏',
@@ -51,7 +51,7 @@ export const experiences = [
     {
         'company': 'Vignan\'s IIT ACM Student Chapter',
         'role': 'Web Developer',
-        'duration': 'Nov 2021 - Nov 2022',
+        'duration': 'Oct 2021 - Nov 2022',
         'logo': 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Association_for_Computing_Machinery_%28ACM%29_logo.svg/600px-Association_for_Computing_Machinery_%28ACM%29_logo.svg.png?20180220110824',
         'points': [
             'Design and deliver the UI/UX for the official ACM-VIIT website. 🎨',

@@ -3,6 +3,7 @@ import { FaGithub, FaTwitter } from 'react-icons/fa';
 import { AiFillMediumCircle, AiFillLinkedin } from 'react-icons/ai';
 import { FiMail } from 'react-icons/fi';
 import { BsStackOverflow } from 'react-icons/bs';
+import { BiLink } from 'react-icons/bi';
 
 
 const Footer = () => {
@@ -13,6 +14,9 @@ const Footer = () => {
 			<div className='flex justify-between flex-wrap gap-4'>
 				<p className='text-white text-center w-full sm:w-auto font-light'>© {year} csgeek. All rights reserved.</p>
 				<div className='text-white flex justify-around sm:w-[250px] w-full'>
+					<a href="https://bio.link/csgeek" className='transition ease-in-out duration-300 rounded-md hover:scale-110 cursor-pointer hover:-translate-y-1' style={{ cursor: 'pointer' }}>
+						<BiLink className='text-xl' />
+					</a>
 					<a href="mailto:balajiyaswanth.v@gmail.com" className='transition ease-in-out duration-300 rounded-md hover:scale-110 cursor-pointer hover:-translate-y-1' style={{ cursor: 'pointer' }}>
 						<FiMail className='text-xl' />
 					</a>
