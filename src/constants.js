@@ -7,7 +7,7 @@ export const experiences = [
         'duration': 'May 2023 - Present',
         'logo': 'https://www.edyoda.com/favicon.ico',
         'points': [
-            'Building EdYoda App from ground-up 📱.',
+            'Building EdYoda App from scratch using React-Native 📱.',
             'Debugged critical issue related to celery configuration on production which caused email delivery failure 🐛.',
             'Pivoted the product with data-driven analysis and migrated back to Orders API which optimized Conversion Rates by 3% 📈.',
             'Building a CI / CD pipeline from scratch with Jenkins to automate deployment process ⚙️.',
@@ -30,7 +30,7 @@ export const experiences = [
         'company': 'Coding Club, IIT Guwahati',
         'role': 'Student Mentor',
         'duration': 'Dec 2022 - Jan 2023',
-        'logo': 'https://www.codepeak.tech/favicon.png',
+        'logo': 'https://yt3.googleusercontent.com/3Mf2jqOywHpFYAaPAOK7yReuUWyUrVtu-SMvXk5ra1IamiD4EbVATHwaDoU2FIbKMHkrOsxx=s176-c-k-c0x00ffffff-no-rj',
         'points': [
             'Mentored 20+ students and helped them to get started with FOSS. ❤️',
             'Maintained open source projects on Github and mentored students to get a good grasp on technologies like Git, GitHub, MERN. 📚',
