@@ -2,9 +2,21 @@ export const name = 'csgeek.';
 
 export const experiences = [
     {
+        'company': 'SwitchOn',
+        'role': 'Software Development Engineer',
+        'duration': 'Nov 2023 - Present',
+        'logo': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrKWeYKoLW0mv_sIKhp-bfzbTfeQg4y_H9zg_QoTaf_VvpHkQ0lHS9KbHDKq7GHuKfwtE&usqp=CAU',
+        'points': [
+            'WIP ⚙️',
+            'WIP 📈',
+            'WIP 📚'
+        ],
+        'url': 'https://switchon.io/',
+    },
+    {
         'company': 'EdYoda',
         'role': 'Software Development Engineer - II',
-        'duration': 'May 2023 - Present',
+        'duration': 'May 2023 - Nov 2023',
         'logo': 'https://www.edyoda.com/favicon.ico',
         'points': [
             'Building EdYoda App from scratch using React-Native 📱.',
@@ -135,11 +147,11 @@ export const services = [
         icon: 'web.png',
     },
     {
-        title: "Backend Developer",
+        title: "Software Engineer",
         icon: 'web.png',
     },
     {
-        title: "Gamer",
+        title: "Gamer Forever",
         icon: 'web.png',
     },
 ];
