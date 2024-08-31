@@ -7,9 +7,9 @@ export const experiences = [
         'duration': 'Nov 2023 - Present',
         'logo': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrKWeYKoLW0mv_sIKhp-bfzbTfeQg4y_H9zg_QoTaf_VvpHkQ0lHS9KbHDKq7GHuKfwtE&usqp=CAU',
         'points': [
-            'WIP ⚙️',
-            'WIP 📈',
-            'WIP 📚'
+            'Implemented a camera acquisition library that works with GenICam compliant USB3 and GigE vision cameras using Python and C 📸. ',
+            'Architectured a deployment pipeline, enhancing security and streamlining application setup ⚙️.',
+            'Built a custom Ubuntu based OS, currently deployed across 50+ workstations and laptops 🖥.'
         ],
         'url': 'https://switchon.io/',
     },
