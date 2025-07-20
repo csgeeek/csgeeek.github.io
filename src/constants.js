@@ -3,11 +3,25 @@ export const name = 'csgeek.';
 export const experiences = [
     {
         'company': 'SwitchOn',
+        'role': 'Software Development Engineer 2',
+        'duration': 'Apr 2025 - Present',
+        'logo': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrKWeYKoLW0mv_sIKhp-bfzbTfeQg4y_H9zg_QoTaf_VvpHkQ0lHS9KbHDKq7GHuKfwtE&usqp=CAU',
+        'points': [
+            'Scaled throughput of a producer-consumer based Image saving process to store 120+ images per second with efficient CPU usage 🌡️.',
+            'Integrated Image Enhancement features into the DeepInspect by exploring several pipelines written in Python/C/C++ ⚡.',
+            'Integrated rejection alerts in the application for all inspection pipelines to notify external systems in case of high rejection ⛔.',
+            'Implemented a low-level tool using Python sockets to discover GigE cameras that operate in the Layer 2 and Layer 3 Network stack 🕸️.'
+        ],
+        'url': 'https://switchon.io/',
+    },
+    {
+        'company': 'SwitchOn',
         'role': 'Software Development Engineer',
-        'duration': 'Nov 2023 - Present',
+        'duration': 'Nov 2023 - Mar 2025',
         'logo': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrKWeYKoLW0mv_sIKhp-bfzbTfeQg4y_H9zg_QoTaf_VvpHkQ0lHS9KbHDKq7GHuKfwtE&usqp=CAU',
         'points': [
             'Implemented a camera acquisition library that works with GenICam compliant USB3 and GigE vision cameras using Python and C 📸. ',
+            'Worked on integrating a low-latency edge server for PLCs using Python multiprocessing to parallelize the inspection pipeline 🚅.',
             'Architectured a deployment pipeline, enhancing security and streamlining application setup ⚙️.',
             'Built a custom Ubuntu based OS, currently deployed across 50+ workstations and laptops 🖥.'
         ],
