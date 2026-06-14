@@ -1,10 +1,24 @@
 export const name = 'csgeek.';
 
 export const experiences = [
+
+    {
+        'company': 'Pixxel',
+        'role': 'Ground Segment Software Engineer',
+        'duration': 'Mar 2026 - Present',
+        'logo': 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Pixxel_Logo_2.jpg/500px-Pixxel_Logo_2.jpg',
+        'points': [
+            'Resolved a synchronization bottleneck causing service starvation by introducing independent sync timestamps, reducing image delivery latency from 12 hours to under 5 minutes.',
+            'Automated satellite onboard image deletion, handling 10+ operational scenarios, improving onboard storage availability',
+            'Designed a Kafka-based notification flow for image capture and processing failure events, improving fault visibility across services',
+            'Integrated ground station APIs to retrieve satellite TLE packet data to extract epoch timestamps for satellite pass identification.',
+        ],
+        'url': 'https://www.pixxel.space/',
+    },
     {
         'company': 'SwitchOn',
         'role': 'Software Development Engineer 2',
-        'duration': 'Apr 2025 - Present',
+        'duration': 'Apr 2025 - Nov 2025',
         'logo': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrKWeYKoLW0mv_sIKhp-bfzbTfeQg4y_H9zg_QoTaf_VvpHkQ0lHS9KbHDKq7GHuKfwtE&usqp=CAU',
         'points': [
             'Scaled throughput of a producer-consumer based Image saving process to store 120+ images per second with efficient CPU usage 🌡️.',
